@@ -3,7 +3,7 @@ import pygame
 import sys
 import random
 
-window: pygame.Window
+window: pygame.Surface
 clock: pygame.time.Clock = pygame.time.Clock()
 fps: int = 60
 fullscreen: bool = False
