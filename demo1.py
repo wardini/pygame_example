@@ -101,7 +101,7 @@ class Target:
 class Score:
     def __init__(self):
         self.score = 0
-        self.font = pygame.font.SysFont("default", 80)
+        self.font = pygame.font.SysFont(None, size=80)
         self.position = pygame.Vector2(screensize[0] // 2, 50)
 
     def increment(self):
