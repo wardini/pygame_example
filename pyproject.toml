@@ -1,9 +1,9 @@
 [project]
-name = "demo1"
-version = "0.1.0"
-description = "Add your description here"
+name = "demo2"
+version = "0.1.1"
+description = "A Pygame example project"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
     "pygame-ce>=2.5.2",
     "pygbag>=0.9.2",
